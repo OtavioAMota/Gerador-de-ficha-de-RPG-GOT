@@ -10,7 +10,7 @@
 	int multdefesa=0 , multinfluencia=0, multlei=0 , multpoder=0, multpopulacao=0 , multriqueza=0,  multterras=0;
 	char nivel, reino[200];
 
-//MUDA A POSIÇÃO DO CURSOR DO CONSOLE
+//MUDA A POSIÃ‡ÃƒO DO CURSOR DO CONSOLE
 void gotoxy(int x,int y){
 	COORD p={x,y};
 	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE),p);
@@ -125,7 +125,7 @@ int dados(int num, int quant){
 
 void descReino(){
 
-	//defesa descrição 
+	//defesa descriÃ§Ã£o 
 	//defesa = 100;
 	printf("\n-----------------------------------------------------\n");
 	printf("Defesa(%d):",defesa);
@@ -173,7 +173,7 @@ void descReino(){
 	}
 	if(defesa>=31 && defesa<=40){
 		_sleep(250);
-		printf(" Boas defesas, com presença quase certa\n");
+		printf(" Boas defesas, com presenÃ§a quase certa\n");
 		_sleep(250);
 		printf("de um castelo, alem de alguns outros pontos\n");
 		_sleep(250);
@@ -209,7 +209,7 @@ void descReino(){
 		_sleep(250);
 		printf("exemplo seria Ninho da Aguia e o Vale de Arryn\n");
 	}
-	//influencia descrição
+	//influencia descriÃ§Ã£o
 	//influencia = 100;
 	printf("-----------------------------------------------------\n");
 	printf("Influencia(%d):",influencia);
@@ -221,7 +221,7 @@ void descReino(){
 	}
 	if(influencia>=1 && influencia<=10){
 		_sleep(250);
-		printf("  Status máximo do Lorde: 2. Um exemplo seria Craster.\n");
+		printf("  Status mÃ¡ximo do Lorde: 2. Um exemplo seria Craster.\n");
 		_sleep(250);
 		printf("Um cavaleiro com terras menor.\n");
 	}
@@ -259,7 +259,7 @@ void descReino(){
 	}
 	if(influencia>=51 && influencia<=60){
 		_sleep(250);
-		printf("  Status máximo do Lorde: 6. Uma casa maior.\n");
+		printf("  Status mÃ¡ximo do Lorde: 6. Uma casa maior.\n");
 		_sleep(250);
 		printf("Exemplos incluem a Casa Tully e a Casa Martell\n");
 	}
@@ -272,7 +272,7 @@ void descReino(){
 		printf("a Casa Baratheon e a Casa Lannister.\n");
 	}
 	
-	//lei descrição
+	//lei descriÃ§Ã£o
 	//lei = 100;
 	printf("-----------------------------------------------------\n");
 	printf("Lei(%d):",lei);
@@ -280,7 +280,7 @@ void descReino(){
 		_sleep(250);
 		printf("  Terra selvagem e sem lei. Voce nao tem\n");
 		_sleep(250);
-		printf("autoridade aqui — as terras alem da Muralha.\n");
+		printf("autoridade aqui â€” as terras alem da Muralha.\n");
 	}
 	if(lei>=1 && lei<=10){
 		_sleep(250);
@@ -321,7 +321,7 @@ void descReino(){
 		_sleep(250);
 		printf(" Nao ha crime em suas terras.\n");
 	}
-	//poder descrição
+	//poder descriÃ§Ã£o
 	//poder = 100;
 	printf("-----------------------------------------------------\n");
 	printf("Poder(%d):",poder);
@@ -337,7 +337,7 @@ void descReino(){
 		_sleep(250);
 		printf("  Apenas uma guarda pessoal, com uma\n");
 		_sleep(250);
-		printf("ou duas espadas juradas e no máximo\n");
+		printf("ou duas espadas juradas e no mÃ¡ximo\n");
 		_sleep(250);
 		printf("um esquadrao de guerreiros plebeus.\n");
 	}
@@ -361,7 +361,7 @@ void descReino(){
 		_sleep(250);
 		printf("pode contar com o servico de uma \n");
 		_sleep(250);
-		printf("família nobre (um brasão vassalo).\n");
+		printf("famÃ­lia nobre (um brasÃ£o vassalo).\n");
 	}
 	if(poder>=41 && poder<=50){
 		_sleep(250);
@@ -371,7 +371,7 @@ void descReino(){
 		_sleep(250);
 		printf("tambem conta com os servicos de uma pequena\n");
 		_sleep(250);
-		printf("forca naval. Varias casas são juradas a voce.\n");
+		printf("forca naval. Varias casas sÃ£o juradas a voce.\n");
 	}
 	if(poder>=51 && poder<=60){
 		_sleep(250);
@@ -387,7 +387,7 @@ void descReino(){
 		_sleep(250);
 		printf("parte dos Sete Reinos.\n");
 	}
-	//populacao descrição
+	//populacao descriÃ§Ã£o
 	//populacao = 100;
 	printf("-----------------------------------------------------\n");
 	printf("Populacao(%d):",populacao);
@@ -397,7 +397,7 @@ void descReino(){
 	}
 	if(populacao>=1 && populacao<=10){
 		_sleep(250);
-		printf(" População escassa. Minusculas comunidades\n");
+		printf(" PopulaÃ§Ã£o escassa. Minusculas comunidades\n");
 		_sleep(250);
 		printf("espalham-se por suas terras.\n");
 	}
@@ -409,7 +409,7 @@ void descReino(){
 	}
 	if(populacao>=21 && populacao<=30){
 		_sleep(250);
-		printf("  População tipica. A maioria dos\n");
+		printf("  PopulaÃ§Ã£o tipica. A maioria dos\n");
 		_sleep(250);
 		printf("plebeus vive em fazendas ou aldeias,\n");
 		_sleep(250);
@@ -427,7 +427,7 @@ void descReino(){
 	}
 	if(populacao>=41 && populacao<=50){
 		_sleep(250);
-		printf(" Populacao grande. Você tem muitas \n");
+		printf(" Populacao grande. VocÃª tem muitas \n");
 		_sleep(250);
 		printf("pessoas em suas terras; varias vivem\n");
 		_sleep(250);
@@ -445,7 +445,7 @@ void descReino(){
 		_sleep(250);
 		printf(" Quase todos em Westeros.\n");
 	}
-	//riqueza descrição
+	//riqueza descriÃ§Ã£o
 	//riqueza = 100;
 	printf("-----------------------------------------------------\n");
 	printf("Riqueza(%d):",riqueza);
@@ -495,7 +495,7 @@ void descReino(){
 		_sleep(250);
 		printf("oferecer banquetes de setenta e sete pratos.\n");
 	}
-	//terras descrição
+	//terras descriÃ§Ã£o
 	//terras = 100;
 	printf("-----------------------------------------------------\n");
 	printf("Terras(%d):",terras);
@@ -511,7 +511,7 @@ void descReino(){
 	}
 	if(terras>=11 && terras<=20){
 		_sleep(250);
-		printf("  Uma pequena extensão de terras, com o\n");
+		printf("  Uma pequena extensÃ£o de terras, com o\n");
 		_sleep(250);
 		printf("tamanho aproximado de uma unica ilha\n");
 		_sleep(250);
@@ -551,7 +551,7 @@ void descReino(){
 		_sleep(250);
 		printf("Westeros. O controle que a Casa Stark\n");
 		_sleep(250);
-		printf("tem sobre o Norte é um bom exemplo.\n");
+		printf("tem sobre o Norte Ã© um bom exemplo.\n");
 	}
 	if(terras>=61 && terras<=70 || terras >70){
 		_sleep(250);
@@ -574,7 +574,7 @@ void criarReino(){
 	comando=0;
 	defesa=0; influencia=0; lei=0; poder=0; populacao=0; riqueza=0; terras=0;
 	multdefesa=-9999999999 ; multinfluencia=-9999999999; multlei=-9999999999 ; multpoder=-9999999999; multpopulacao=-9999999999 ; multriqueza=-9999999999;  multterras=-9999999999;
-	system("title Criando o reino - RPG v0.01");
+	system("title Criando o reino - RPG v0.01 by Otavio");
 	printf("-------------------------------------------\n");
 	printf("|Escolha um reino para comecar            |\n");
 	printf("-------------------------------------------\n");
@@ -936,7 +936,7 @@ void criarReino(){
 }
 
 void menu(){
-	system("title Menu - RPG v0.01");
+	system("title Menu - RPG v0.01 by Otavio");
 	clear();
 	while(loop==1){
 		gotoxy(0,0);
@@ -1002,7 +1002,7 @@ void menu(){
 }
 int main (){
 	clear();
-	system("title Inicio - RPG v0.01");
+	system("title Inicio - RPG v0.01 by Otavio");
 	printf("-------------------------------------------\n");
 	printf("|Tela inicial                             |\n");
 	printf("-------------------------------------------\n");
